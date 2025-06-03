@@ -109,9 +109,3 @@ To remove all AWS resources:
 cd terraform
 terraform destroy -var="discord_token=$env:DISCORD_TOKEN" -var="discord_public_key=$env:DISCORD_PUBLIC_KEY" -auto-approve
 ```
-
-## 📚 Learn More
-
-- [Discord.py Documentation](https://discordpy.readthedocs.io/)
-- [AWS Lambda with Python](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html)
-- [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
